@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.wrapper{
+    height: auto;
+    width: 100%;
+    /* background: red; */
+    /* border: 1px solid black;    */
+}
+
+#result{
+    height: 60%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(best-hd-wallpapers-pc-background-laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+#result span{
+    color: aliceblue;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 200%;
+    
+}
+ .budget{
+     height:10%;
+     width:35%;
+     margin: auto;
+     margin-top: 4.5%;
+}
+
+#IncomeDiv{
+    background:  rgba(0, 128, 0, 0.808);
+}
+#ExpensesDiv{
+    background: rgba(255, 0, 0, 0.808);
+}
+.data{
+    height: 100%;
+    width: 50%;
+    /* background: rgba(255, 255, 0, 0.233); */
+    float: left;
+    text-align: center;
+    line-height: 200%;
+    font-size: 120%
+}
+.data1{
+    height: 100%;
+    width: 50%;
+    /* background: rgba(255, 255, 0, 0.233); */
+    float: right;
+    text-align: center;
+    line-height: 200%;
+    font-size: 120%;
+    color: white;
+}
+#choices{
+    height: 10%;
+    /* width: 50%; */
+    width: 100%;
+    background:linear-gradient(rgba(128, 128, 128, 0.685) 10%,white 90%);
+    margin: auto;
+}
+#IncomeExpenses{
+    height: 60%;
+    width: 10%;
+    border-radius: 20%;
+    outline: none;
+    font-size: 110%;
+    border-color: green;
+    margin-right:3%;
+    margin-left: 23%;
+    margin-top: 1%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50px;
+    padding-left:1%;
+}
+
+#Description{
+    height: 60%;
+    width: 20%;
+    border-radius: 17%;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-image: initial;;
+    border-color: green;
+    font-size: 110%;
+    margin-right:3%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50px;
+    padding-left:2%; 
+}
+#Value{
+    height: 60%;
+    width: 10%;
+    border-radius: 20%;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-image: initial;
+    border-color: green;
+    font-size: 110%;
+    margin-right:3%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50px;
+    padding-left:1%;
+}
+#Submit{
+    height: 55%;
+    width: 3%;
+    border-radius: 100%;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    border-image: initial;
+    color: green;
+    background: white;
+    font-size: 110%;
+}
+
+
+#footer{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    text-align: center;
+}
+
+#IncomeLeftDiv{
+    height: auto;
+    width: 45%;
+    background:white;
+    float: left;
+    border: 1px solid green;
+}
+#ExpenseRightDiv{
+    float: right;
+    height: auto;
+    width: 45%;
+    background:white;
+    border: 1px solid red;
+}
+
+.TitleIncomeData{
+    height: auto;
+    width: 100%;
+    font-size: 130%;
+    color: white;
+    background: green;
+    font-weight: bold;
+}
+.TitleExpenseData{
+    height: auto;
+    width: 100%;
+    font-size: 130%;
+    color: white;
+    background: red;
+    font-weight: bold;
+}
+
+.IncomeTitleList{
+    color: white;
+    border: 1px solid;
+    height: 6%;
+}
+
+.ExpenseTitleList{
+    color: white;
+    border: 1px solid;
+    height: 6%;
+}
+
+
+
+#INCOMELIST ul:hover{
+    background:rgba(0, 128, 0, 0.10);
+    border-bottom: 2px solid green;
+
+}
+
+
+#INCOMELIST{
+    height: auto;
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+
+#EXPENSELIST ul:hover{
+    background:rgba(255, 0, 0, 0.10);
+    border-bottom: 2px solid red;
+
+}
+#EXPENSELIST{
+    height: auto;
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+
+.IncomeTitle{
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    padding-top: 4%;
+    width: 45%;
+    color: green;
+    text-align: start;
+}
+
+.ExpenseTitle{
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    padding-top: 4%;
+    width: 45%;
+    color: red;
+    text-align: start;
+}
+
+
+
+.IncomeValue{
+    
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    padding-top: 4%;
+    padding-right: 2%;
+    width: 45%;
+    text-align: end;
+    color: rgb(44, 44, 44);
+}
+
+.ExpenseValue{
+    
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    /* border: 1px solid white; */
+    padding-top: 4%;
+    padding-right: 2%;
+    width: 45%;
+    text-align: end;
+    color: rgb(44, 44, 44);
+}
+.IncomeRemove{
+    
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    border: 1px solid green;
+    /* padding: 2%; */
+    height: 68%;
+    width: 6%;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 2%;
+    color: green;
+    background: white;
+}
+.IncomeRemove:focus{
+    outline:none !important;
+}
+
+
+.ExpenseRemove{
+    
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    border: 1px solid red;
+    /* padding: 2%; */
+    height: 68%;
+    width: 6%;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 2%;
+    color: red;
+    background: white;
+}
+.ExpenseRemove:focus{
+    outline:none !important;
+}
+
+
+.ChildIncomeDiv{
+    height:auto;
+    width: 100%;
+    /* background: wheat; */
+}
+
+.ChildExpenseDiv{
+    height:auto;
+    width: 100%; 
+}

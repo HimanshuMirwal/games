@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Rolling Dice</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js">
+
+    </script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>The Rolling Dice</h1>
+        <div id="NewGame">
+            <input type="button" id="NewGameButton" value="&oplus; New Game" onclick="NewGame()">
+        </div>
+
+        <div id="Player1">
+            <div id="PlayerOneStatus">
+                PLAYER ONE <span id="activeOne" style="font-size: 100%;color:red"></span><br>
+                <p class="paragraph" id="PlayerOneGlobalScore">0</p>
+            </div>
+        </div>
+
+        <div id="Player2">
+            <div id="PlayerTwoStatus">
+                PLAYERS TWO <span id="activeTwo" style="font-size: 100%;color:red"></span><br>
+                <p class="paragraph" id="PlayerTwoGlobalScore">0</p>
+            </div>
+        </div>
+
+        <div id="footer">
+            
+            <div id="PlayerOneScore">
+                CURRENT<br>
+                <p id="PlayerOneCurrentScore">0</p>
+            </div>
+
+            <div id="refreshButton">
+                    <input type="button" id="RollDice" value="start" onclick="clicked()"  onkeyup="PlayerCurrentScoreDiv(event)" >
+            </div>
+
+            <div id="PlayerTwoScore">
+                CURRENT<br>
+                <p id="PlayerTwoCurrentScore">0</p>
+            </div>
+        </div>
+        <div id="footer2"><img src="pics/1.png" height="100%" width="100%" id="dice" /></div>
+        <!-- <h1>test</h1> -->
+    </div>
+</body>
+
+</html>
